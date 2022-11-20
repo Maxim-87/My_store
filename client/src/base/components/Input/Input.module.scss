@@ -1,0 +1,56 @@
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 617px;
+  height: 40px;
+  outline: none;
+  padding: 11px 16px;
+  border-radius: 8px;
+  border: none;
+
+  &__label {
+    font-size: 16px;
+    line-height: 19px;
+    width: max-content;
+    margin-bottom: 10px;
+  }
+
+  &--fluid {
+    width: 617px;
+    height: 25px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    box-sizing: border-box;
+    height: max-content;
+    align-items: start;
+
+    .label_block {
+      display: flex;
+      margin-top: 10.5px;
+    }
+    .image {
+      width: 15px;
+      height: 13px;
+    }
+  }
+
+  &__warning {
+    margin-left: 10px;
+    color: red;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  &__error {
+    margin-left: 10px;
+    color: red;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+}
+
