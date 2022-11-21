@@ -11,7 +11,6 @@ interface OwnProps {
 }
 
 interface MainModuleLayoutProps extends OwnProps {
-  // eslint-disable-next-line react/no-unused-prop-types
   location?: string;
 }
 
